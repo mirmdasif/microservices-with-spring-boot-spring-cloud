@@ -13,8 +13,11 @@ public class CurrencyExchangeController {
 
     private final Environment environment;
 
-    public CurrencyExchangeController(Environment environment) {
+    private final CurrencyExchangeRepository repository;
+
+    public CurrencyExchangeController(Environment environment, CurrencyExchangeRepository repository) {
         this.environment = environment;
+        this.repository = repository;
     }
 
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
@@ -22,6 +25,9 @@ public class CurrencyExchangeController {
 
         int port = Integer.parseInt(Objects.requireNonNull(environment.getProperty("local.server.port")));
 
-        return new ExchangeValue(100L, from, to, BigDecimal.valueOf(65), port);
+        ExchangeValue exchangeValue = repository.findByFromAndTo(from, to);
+        exchangeValue.setPort(port);
+
+        return exchangeValue;
     }
 }
