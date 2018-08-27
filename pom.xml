@@ -16,6 +16,7 @@
         <module>limits-service</module>
         <module>currency-conversion-service</module>
         <module>currency-exchange-service</module>
+        <module>netflix-zuul-api-gateway-server</module>
     </modules>
 
 </project>
