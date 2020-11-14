@@ -1,4 +1,4 @@
-## An example microservices application built using spring-cloud
+## An Example Microservices Application Built Using Spring-Cloud
 
 ## Micro Services and Corresponding Ports
 |Application|Port|
