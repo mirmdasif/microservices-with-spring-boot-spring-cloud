@@ -1,8 +1,5 @@
 ## An example microservices application built using spring-cloud
 
-## Distributed Tracing
-![Distributed Tracing](./zipkin_distributed_tracing.svg)
-
 ## Micro Services and Corresponding Ports
 |Application|Port|
 |--- |--- |
@@ -14,3 +11,8 @@
 |Netflix Eureka Naming Server|8761|
 |Netflix Zuul API Gateway Server|8765|
 |Zipkin Distributed Tracing Server|9411|
+
+## Distributed Tracing
+![Distributed Tracing](./zipkin_distributed_tracing.svg)
+
+
