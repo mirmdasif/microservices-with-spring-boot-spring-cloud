@@ -16,6 +16,9 @@
 ## Ribbon Load Balancing
 ![Ribbon Load Balancing](./ribbon_load_balancing.svg)
 
+## Zuul Api Gateway
+![Zuul Api Gateway](./zuul-api-gate-way.svg)
+
 ## Distributed Tracing
 ![Distributed Tracing](./zipkin_distributed_tracing.svg)
 
