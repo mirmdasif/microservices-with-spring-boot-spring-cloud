@@ -3,7 +3,7 @@
 ## Distributed Tracing
 ![Distributed Tracing](./zipkin_distributed_tracing.svg)
 
-
+## Micro Services and Corresponding Ports
 |Application|Port|
 |--- |--- |
 |Limits Service|8080, 8081, ...|
