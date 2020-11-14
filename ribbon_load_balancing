@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T15:47:05.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.3" etag="xnIglGeNY6AtOr6_WYzj" type="github"><diagram id="TGoxZDalF_l5qJtKCQCd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-14T17:19:32.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="S0ArSjVaJSGThTcMAClO" version="13.9.3" type="github">
+  <diagram id="TGoxZDalF_l5qJtKCQCd" name="Page-1">
+    <mxGraphModel dx="1186" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bfeBpMxm_9JN4upieXjt-1" value="Currency Exchange Service1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="300" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-2" value="Currency Exchange Service2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="300" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-3" value="Currency Exchange Service2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="300" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bfeBpMxm_9JN4upieXjt-4" target="bfeBpMxm_9JN4upieXjt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-4" value="CurrencyCalculationService&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="20" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bfeBpMxm_9JN4upieXjt-5" target="bfeBpMxm_9JN4upieXjt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bfeBpMxm_9JN4upieXjt-5" target="bfeBpMxm_9JN4upieXjt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="240" />
+              <mxPoint x="175" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bfeBpMxm_9JN4upieXjt-5" target="bfeBpMxm_9JN4upieXjt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bfeBpMxm_9JN4upieXjt-5" target="bfeBpMxm_9JN4upieXjt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="240" />
+              <mxPoint x="675" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-5" value="Ribbon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfeBpMxm_9JN4upieXjt-6" value="Naming Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
