@@ -12,6 +12,9 @@
 |Netflix Zuul API Gateway Server|8765|
 |Zipkin Distributed Tracing Server|9411|
 
+## Ribbon Load Balancing
+![Ribbon Load Balancing](./ribbon_load_balancing.svg)
+
 ## Distributed Tracing
 ![Distributed Tracing](./zipkin_distributed_tracing.svg)
 
