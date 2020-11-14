@@ -1,4 +1,4 @@
 ## An example microservices application built using spring-cloud
 
 ## Distributed Tracing
-![Distributed Tracing](./spring-microservices.svg)
+![Distributed Tracing](./zipkin_distributed_tracing.svg)
