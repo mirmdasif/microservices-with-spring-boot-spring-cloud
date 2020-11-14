@@ -1,4 +1,4 @@
-## An Example Microservices Application Built Using Spring-Cloud
+## An Example Monorepo of Microservices Application Built Using Spring-Cloud
 
 ## Micro Services and Corresponding Ports
 |Application|Port|
