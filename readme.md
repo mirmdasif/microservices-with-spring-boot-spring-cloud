@@ -11,7 +11,8 @@
 |Netflix Eureka Naming Server|8761|
 |Netflix Zuul API Gateway Server|8765|
 |Zipkin Distributed Tracing Server|9411|
-
+## Eureka Naming Server
+![Eureka Naming Server](./eureka-naming-server.svg)
 ## Ribbon Load Balancing
 ![Ribbon Load Balancing](./ribbon_load_balancing.svg)
 
